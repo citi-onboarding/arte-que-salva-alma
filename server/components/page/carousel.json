@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_carousels",
+  "info": {
+    "name": "carousel",
+    "icon": "horse-head"
+  },
+  "options": {},
+  "attributes": {
+    "carouselTitle": {
+      "type": "string"
+    },
+    "carouselMedia": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "carouselDescription": {
+      "type": "text"
+    }
+  }
+}
