@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entre_em_contatoes",
+  "info": {
+    "name": "entre_em_contato",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "assuntos": {
+      "type": "string"
+    },
+    "mensagem": {
+      "type": "text"
+    }
+  }
+}
