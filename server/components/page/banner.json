@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_banners",
+  "info": {
+    "name": "banner",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "SubHeading": {
+      "type": "string"
+    },
+    "Photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.links"
+    }
+  }
+}

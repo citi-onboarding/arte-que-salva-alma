@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_links",
+  "info": {
+    "name": "Links",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "LINKnossoestatuto": {
+      "type": "enumeration",
+      "enum": [
+        "nossoestatuto"
+      ],
+      "required": true
+    }
+  }
+}
