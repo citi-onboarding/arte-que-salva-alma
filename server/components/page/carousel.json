@@ -17,16 +17,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "carouselTitle": {
-      "type": "string"
-    },
-    "CarouselDescription": {
-      "type": "text"
-    },
-    "carouselLink": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.carousel-link"
     }
   }
 }
