@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/entre-em-contatoes",
+      "handler": "entre-em-contato.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/entre-em-contatoes/count",
+      "handler": "entre-em-contato.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/entre-em-contatoes/:id",
+      "handler": "entre-em-contato.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/entre-em-contatoes",
+      "handler": "entre-em-contato.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/entre-em-contatoes/:id",
+      "handler": "entre-em-contato.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/entre-em-contatoes/:id",
+      "handler": "entre-em-contato.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

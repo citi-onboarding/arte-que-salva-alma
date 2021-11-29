@@ -1,13 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "carousel",
-  "info": {
-    "name": "carousel"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
