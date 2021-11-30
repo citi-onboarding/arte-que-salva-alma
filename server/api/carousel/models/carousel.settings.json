@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": true
   },
   "pluginOptions": {},
   "attributes": {

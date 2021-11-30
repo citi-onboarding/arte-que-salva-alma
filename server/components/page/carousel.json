@@ -16,7 +16,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
     }
   }
 }
