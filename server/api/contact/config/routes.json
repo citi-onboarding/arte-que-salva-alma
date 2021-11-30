@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/entre-em-contatoes",
-      "handler": "entre-em-contato.find",
+      "path": "/contacts",
+      "handler": "contact.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/entre-em-contatoes/count",
-      "handler": "entre-em-contato.count",
+      "path": "/contacts/count",
+      "handler": "contact.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/entre-em-contatoes/:id",
-      "handler": "entre-em-contato.findOne",
+      "path": "/contacts/:id",
+      "handler": "contact.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/entre-em-contatoes",
-      "handler": "entre-em-contato.create",
+      "path": "/contacts",
+      "handler": "contact.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/entre-em-contatoes/:id",
-      "handler": "entre-em-contato.update",
+      "path": "/contacts/:id",
+      "handler": "contact.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/entre-em-contatoes/:id",
-      "handler": "entre-em-contato.delete",
+      "path": "/contacts/:id",
+      "handler": "contact.delete",
       "config": {
         "policies": []
       }

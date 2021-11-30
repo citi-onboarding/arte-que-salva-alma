@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "entre_em_contatoes",
+  "collectionName": "contacts",
   "info": {
-    "name": "entre_em_contato",
-    "description": ""
+    "name": "contact"
   },
   "options": {
     "increments": true,
@@ -18,7 +17,7 @@
     "email": {
       "type": "email"
     },
-    "assuntos": {
+    "assunto": {
       "type": "string"
     },
     "mensagem": {
