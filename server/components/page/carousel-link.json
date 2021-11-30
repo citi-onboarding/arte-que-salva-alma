@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_carousel_links",
+  "info": {
+    "name": "carouselLink",
+    "icon": "unlink"
+  },
+  "options": {},
+  "attributes": {
+    "carouselLink": {
+      "type": "string",
+      "required": true
+    },
+    "carouselURL": {
+      "type": "string"
+    }
+  }
+}

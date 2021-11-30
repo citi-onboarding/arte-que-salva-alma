@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_social_medias",
+  "info": {
+    "name": "SocialMedia",
+    "icon": "user-plus"
+  },
+  "options": {},
+  "attributes": {
+    "SocialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "Youtube",
+        "Instagram",
+        "Facebook",
+        "Twitter",
+        "LinkedIn"
+      ],
+      "required": true
+    },
+    "SocialURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

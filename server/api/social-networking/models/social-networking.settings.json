@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "SocialNetworking",
+  "info": {
+    "name": "SocialNetworking",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SocialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-media"
+    }
+  }
+}

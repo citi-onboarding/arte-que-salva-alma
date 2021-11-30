@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_social_networkings",
+  "info": {
+    "name": "SocialNetworking",
+    "icon": "user-circle"
+  },
+  "options": {},
+  "attributes": {
+    "SocialURL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

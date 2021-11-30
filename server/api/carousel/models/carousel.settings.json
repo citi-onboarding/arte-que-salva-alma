@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carousel": {
+      "type": "dynamiczone",
+      "components": [
+        "page.carousel"
+      ]
+    }
+  }
+}
